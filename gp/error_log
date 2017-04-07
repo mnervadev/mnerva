@@ -1,0 +1,12 @@
+[01-Mar-2017 11:49:50 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[01-Mar-2017 11:49:50 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[01-Mar-2017 11:49:51 America/Chicago] PHP Warning:  file_get_contents(https://www.googleapis.com/oauth2/v3/tokeninfo?id_token=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home3/mnerva/public_html/gp/gplogin.php on line 5
