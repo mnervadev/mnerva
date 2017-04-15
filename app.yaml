@@ -7,7 +7,9 @@ handlers:
   static_files: \1
   upload: .+\.(gif|png|jpg)$
   application_readable: true
+  script: index.php
 
 # Serve php scripts.
 - url: /(.+\.php)$
-  script: \1
+  script: index.php
+
