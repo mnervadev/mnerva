@@ -1,6 +1,10 @@
+application: mnerva
+version: v1
 runtime: php55
 api_version: 1
+threadsafe: yes
+document_root: mnerva
 
 handlers:
 - url: /.*
-  script: index.php
+script: index.php
